@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #eff4fd;
+}
+
+/* Index Page Styling */
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero img{
+    margin: 20px;
+    padding: 20px;
+    width: 13%;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detail{
+    margin-left: 7%;
+    margin-top: 9%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 4%;
+}
+
+.info p{
+    color: #555;
+    line-height: 22px;
+}
+
+.info a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 35%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 90px;
+}
+
+.images img{
+    height: 170%;
+    position: absolute;
+    left: 1%;
+
+}
+
+/* About Page Styling */
+
+.about{
+    margin-left: 7%;
+    margin-top: 9%;
+}
+
+.about h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.myself{
+    margin-left: 7%;
+    margin-top: 4%;
+}
+
+.myseelf p{
+    color: #555;
+    line-height: 45px;
+    padding: 20px;
+}
+
+/* Skills Stylings */
+
+.skills{
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.skills h2{
+    font-size: 30px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.skills p{
+    color: #555;
+    line-height: 22px;
+    padding: 20px;
+}
+
+/* Contact Styling */
+
+.contact{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h1{
+    font-size: 40px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.media-icons{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-icons a{
+    height: 100px;
+    width: 100px;
+    background-color: #e7ecff;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 100px;
+    box-shadow: 1px 4px 2px 2px #979caf;
+}
+
+.container{
+    background-color: #eff4fd;
+    width: 70%;
+    min-width: 420px;
+    padding: 35px 50px;
+    transform: translate(-50%, 60%);
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    border-radius: 10px;
+    box-shadow: 20px -14px 14px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(5, 4, 4);
+}
+
+.container p{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #444141;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+form{
+    width: 100%;
+    position: relative;
+    margin: 30px auto 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 20px 30px;
+    margin-bottom: 20px;
+}
+
+label{
+    color: #1c093c;
+    font-size: 14px;
+}
+
+textarea,
+input{
+    width: 100%;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1.2px solid #c4cae0;
+    margin-top: 5px;
+}
+
+textarea{
+    resize: none;
+}
+
+textarea:focus,
+input:focus{
+    outline: none;
+    border-color: #6f6df4;
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #6f6df4;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
